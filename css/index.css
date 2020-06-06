@@ -1,73 +1,16 @@
-html {
-    background-color: #7f7fff;
-    color: black;
-    font-family: sans-serif;
-    text-align: center;
-
-    text-rendering: optimizeLegibility;
-    font-feature-settings: "kern" 1;
-    -webkit-font-feature-settings: "kern";
-    -moz-font-feature-settings: "kern";
-    -moz-font-feature-settings: "kern=1";
-    font-kerning: normal;
-}
-
 #page-div {
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-
-    border: 2px solid black;
-    padding: 0 2em 1em 2em;
-
-    background-color: #ffffbf;
+    margin-left: 1.2em;
+    margin-top: 1em;
 }
 
-h1, h2, h3, h4 {
-    font-variant: small-caps;
-    letter-spacing: 0.08ex;
+body {
+    font-family: sans;
 }
 
-a:link {
-    color: #0000ff;
-    text-decoration: none;
-    font-weight: bold;
+h1 {
+    font-weight: normal;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-a.button {
-    background-color: #eeeeee;
-    color: #333333;
-    display: block;
-    padding: 1em;
-    border-top: 2px solid #cccccc;
-    border-right: 2px solid #333333;
-    border-bottom: 2px solid #333333;
-    border-left: 2px solid #cccccc;
-}
-
-a:hover.button {
-    text-decoration: none;
-    background-color: #ffffff;
-}
-
-a:active.button {
-    border-top: 2px solid #333333;
-    border-right: 2px solid #cccccc;
-    border-bottom: 2px solid #cccccc;
-    border-left: 2px solid #333333;
-}
-
-a:visited {
-    color: #0000bf;
+#name-heading {
+    font-size: xx-large;
 }
