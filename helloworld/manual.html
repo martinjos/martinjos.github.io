@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Manual js loading test</title>
+    <script src="https://raw.githubusercontent.com/martinjos/wasm-helloworld/refs/heads/main/factorial.js"></script>
+  </head>
+  <body>
+    <h1>Manual js loading test</h1>
+    <p id="out"></p>
+    <script>
+      out.innerHTML += "Started<br>\n";
+      out.innerHTML += `Module: ${Module}<br>\n`;
+    </script>
+  </body>
+</html>
